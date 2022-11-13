@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Quiz Challenge</title>
+</head>
+
+<body>
+    <section>
+        <header class="mainContainer">
+            <h5 class="highScores">View High Scores</h5>
+            <p id="countdown">Time:75</p>
+
+        </header>
+        <div id="startBox">
+            <h1>Coding Quiz Challenge</h1>
+            <p>This is a cool game that is gonna help understand coding!</p>
+            <br>
+            <button id="startbtn">Start Quiz</button>
+            <br>
+        </div>
+        <main id="quizContainer" class="gamehide">
+            <div id="quizquestions"></div>
+            <div id="quizanswers"></div>
+            <!-- questions -->
+            <div class="questionBox" id="q1">
+                <div id="question"></div>
+                <div id="answers" class="buttonArea"></div>
+                <h3 id="correct" class="gamehide">Correct!</h3>
+                <h3 id="wrong" class="gamehide">Wrong!</h3>
+
+            </div>
+
+            </div>
+        </main>
+        <div id="score" class="gamehide">
+            <h2>All done!</h2>
+            <div id="yourScore">Your final score is
+            </div><br>
+            <div id="initials">Enter Initials:</div>
+            <input type="text" id="inputInitials"  onfocus="this.value=''">
+           
+            <button id="submit">Submit</button><br>
+        </div>
+
+    </section>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/questions.js"></script>
+</body>
+
+</html>

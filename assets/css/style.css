@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size:  20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fae39c;
+    border-radius: 35px;
+    
+}
+
+header {
+    justify-content: space-between;
+    margin: 20px;
+    display: flex;
+    color:black;
+    margin-top: 5%;
+
+}
+
+h2 {
+    margin: 3opx;
+    
+}
+
+h3{
+    font-style: italic;
+    opacity: 15%;
+  
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 15px; 
+    background-color:#9db3f7;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    margin-left: 42%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 200px;
+}
+
+
+button:hover {
+    background-color: #cfdaf8;
+}
+.startBox {
+    text-align: center;
+}
+
+input {
+    border-width: 1px;
+    height: 30px;
+    
+} 
+
+section {
+   
+    margin: 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.gobackBtn, .clearHs {
+    width: 200px;
+    height: 50px;
+    display: inline;
+    margin-left: 5%;
+    
+}
+
+.gamehide {
+    display: none;
+}
+
+.gameshow {
+    display: block;
+
+}
+
+#initials {
+    display: inline-block;
+}
