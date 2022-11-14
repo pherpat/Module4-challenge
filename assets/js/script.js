@@ -1,7 +1,7 @@
 // Create variables  
 // DOM 
 // set up local storage JSON
-//  listener events
+//listener events
 // start game
 // iniciate timer
 // function to run the questions and show "correct or wrong message"
@@ -13,15 +13,12 @@
 // Save Score function - create new html for high scores
 
 // Create variables
-
 var timeLeft = 75;
 var questNum;
 let score = 0;
-
 var timerRun = "Not Active";
 // I need to check console to make sure what im doing 
   console.log(timerRun);
-
 let yourScores;
 
 
@@ -37,7 +34,6 @@ var quizEl = document.getElementById("question");
 const answerButtons = document.getElementById("answers");
 var quizEnd = document.querySelector("#score");
 var userInitials = document.querySelector("#inputInitials");
-
 var startBox = document.querySelector("#startBox");
 var scoreCtn = document.querySelector("#score");
 var submitScorebtn = document.querySelector("#submit");
@@ -138,7 +134,6 @@ function clearQuestion() {
 
 
 // End game function
-
 function endGame() {
   timerRun = "Stop Timer";
   console.log(timerRun);

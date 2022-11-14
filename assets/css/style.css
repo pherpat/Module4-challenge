@@ -6,35 +6,34 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    margin-left: 35px;
-    margin-right: 35px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-
+    margin: 0px;
 }
 
 main {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #fae39c;
+    background-color: #ededed;
     border-radius: 35px;
+    max-width: 900px;
+    margin: auto;
 
 }
 
 header {
     justify-content: space-between;
-    margin: 20px;
+    margin: 30px;
     display: flex;
     color: black;
-    margin-top: 5%;
+   
 
 }
 
 h2 {
-    margin: 3opx;
-    padding-top: 107px;
-
+    margin: 30px;
+   
 }
 
 h3 {
@@ -48,13 +47,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-block: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #9db3f7;
     padding: 15px;
     border-radius: 100px;
     border: none;
     font-size: 20px;
-    margin-left: 42%;
     cursor: pointer;
     transition: all 0.5s ease;
     width: 200px;
@@ -77,10 +77,10 @@ input {
 
 section {
 
-    margin: 20px;
+    margin: 0px;
     justify-content: space-between;
     text-align: center;
-    margin-left: 10px;
+   
 }
 
 
@@ -108,4 +108,17 @@ section {
 
 #text {
     padding-top: 23px;
+}
+
+#scorelist{
+    width: 200px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+#submit {
+    margin: auto;
+    margin-top: 20px;
+}
+#highscoresbtn {
+    margin-top: 100px;
 }
