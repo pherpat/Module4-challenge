@@ -156,6 +156,7 @@ function saveScore() {
   const userScore = {
     score: yourScores,
     initials: userInitials.value
+
   };
   console.log(userScore);
   // adding data to the local storage

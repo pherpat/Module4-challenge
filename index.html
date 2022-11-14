@@ -13,7 +13,7 @@
     <section>
         <header class="mainContainer">
             <!-- make view high Scores as a link -->
-            <div id="text" onclick="highScores()">View High Scores</div>
+            <a href="highscores.html" id="text">View High Scores</a>
             <p id="countdown">Time:75</p>
 
         </header>
@@ -40,9 +40,11 @@
         </main>
         <div id="score" class="gamehide">
             <h2>All done!</h2>
+            <h4> Game Over!</h4>
             <div id="yourScore">Your final score is
             </div><br>
             <div id="initials">Enter Initials:</div>
+            <!-- enter initial - clear the input -->
             <input type="text" id="inputInitials" onfocus="this.value=''">
 
             <button id="submit">Submit</button><br>

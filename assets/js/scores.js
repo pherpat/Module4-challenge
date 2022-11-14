@@ -40,9 +40,10 @@ function startOver () {
 var clearHscores = document.querySelector(".clearHs");
 clearHscores.addEventListener("click", clearScore);
 
-// calling the clearscores function
-// function clearScore () {
-       
-    // window.location.href="index.html";
-    // userScore = 0;
-// }
+// calling the clearscores function, clear the local storage, and reload page.
+ function clearScore () {
+    console.log("clear");
+    localStorage.clear();
+    location.reload();
+}
+ 

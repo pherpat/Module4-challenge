@@ -33,6 +33,7 @@ header {
 
 h2 {
     margin: 3opx;
+    padding-top: 107px;
 
 }
 
@@ -106,5 +107,5 @@ section {
 }
 
 #text {
-    padding-top: 30px;
+    padding-top: 23px;
 }
