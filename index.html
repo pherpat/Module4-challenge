@@ -12,13 +12,14 @@
 <body>
     <section>
         <header class="mainContainer">
-            <h5 class="highScores">View High Scores</h5>
+            <!-- make view high Scores as a link -->
+            <div id="text" onclick="highScores()">View High Scores</div>
             <p id="countdown">Time:75</p>
 
         </header>
         <div id="startBox">
-            <h1>Coding Quiz Challenge</h1>
-            <p>This is a cool game that is gonna help understand coding!</p>
+            <h1>Mario Bros Quiz Challenge</h1>
+            <p>Do you really know your favorite character??</p>
             <br>
             <button id="startbtn">Start Quiz</button>
             <br>
@@ -42,8 +43,8 @@
             <div id="yourScore">Your final score is
             </div><br>
             <div id="initials">Enter Initials:</div>
-            <input type="text" id="inputInitials"  onfocus="this.value=''">
-           
+            <input type="text" id="inputInitials" onfocus="this.value=''">
+
             <button id="submit">Submit</button><br>
         </div>
 
