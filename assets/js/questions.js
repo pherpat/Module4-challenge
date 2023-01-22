@@ -7,10 +7,10 @@ const questions = [
     {
         question: "Who is Mario's brother?",
         answers: [
-            { text: "Luigui", correct: true },
+            { text: "Luigi", correct: true },
             { text: "Toad", correct: false },
             { text: "Yoshi", correct: false },
-            { text: "Baby Luigui", correct: false }
+            { text: "Baby Luigi", correct: false }
         ]
     },
     {
@@ -23,7 +23,7 @@ const questions = [
         ]
     },
     {
-        question: "What is Luigui's biggest fear?",
+        question: "What is Luigi's biggest fear?",
         answers: [
             { text: "King Boo", correct: true },
             { text: "Boos", correct: false },
