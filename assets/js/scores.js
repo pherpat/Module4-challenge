@@ -4,7 +4,7 @@ function getHighScores() {
 
     // grab JSON object and convert to js object
     let highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-    // log the array to make sure is there
+    // log the array to make sure its there
     console.log(highScores);
 
     //  sorting the array 
@@ -13,8 +13,8 @@ function getHighScores() {
 			return b.score - a.score;
 		});
 	}
-    // making sure what im doing
-	console.log(sortedPlayers(highScores))
+    
+	// console.log(sortedPlayers(highScores))
 
     // taking our object array and maping it to out HTML items
      document.querySelector("#scorelist").innerHTML = highScores
